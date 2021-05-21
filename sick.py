@@ -11,22 +11,22 @@ root.config(bg="Green")
 class Sick:
     def __init__(self):
         # The labels of the sick system
-        sickness_code = Label(root, text="Sickness Code:")
+        sickness_code = Label(root, text="Sickness Code:", bg="Green")
         sickness_code.place(x=25, y=150, anchor="w")
         # D.T
-        treatment_duration = Label(root, text="Duration of Treatment:")
+        treatment_duration = Label(root, text="Duration of Treatment:", bg="Green")
         treatment_duration.place(x=25, y=200, anchor="w")
         # Duration unit
-        duration_unit = Label(root, text="Weeks/Months")
+        duration_unit = Label(root, text="Weeks/Months", bg="Green")
         duration_unit.place(x=390, y=188)
         # D.P.N
-        doc_prac_num = Label(root, text="Doctor's Practice Number:")
+        doc_prac_num = Label(root, text="Doctor's Practice Number:", bg="Green")
         doc_prac_num.place(x=25, y=250, anchor="w")
 
-        fee = Label(root, text="Scan/Consultation Fee:")
+        fee = Label(root, text="Scan/Consultation Fee:", bg="Green")
         fee.place(x=25, y=300, anchor="w")
 
-        amount_paid_label = Label(root, text="Amount paid for treatment:")
+        amount_paid_label = Label(root, text="Amount paid for treatment:", bg="Green")
         amount_paid_label.place(x=25, y=400)
 
         # Creating the entry boxes
